@@ -117,3 +117,37 @@ body{
       margin-top: 80px;
       font-size: 56px;
 }
+
+
+.login-container{
+     display: grid;
+     margin: 40px auto;
+     background-image: url(../images/shape/Group_33094_1.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 800px;
+     padding: 80px;
+     border-radius: 20px;
+}
+.login{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+}
+.login h1{
+      color: white;
+      font-size: 40px;
+}
+.login h4{
+      background-color: white;
+      color: black;
+      font-size: 17px;
+      border: none;
+      border-radius: 10px;
+      padding: 15px 40px;
+      cursor: pointer;
+}
+.login h4 a{
+      text-decoration: none;
+}
