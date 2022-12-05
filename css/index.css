@@ -1,6 +1,7 @@
 body{
       margin: 0px;
       padding: 0px;
+      font-family: Arial, Helvetica, sans-serif;
 }
 .nev-container{
       display: flex;
@@ -26,4 +27,43 @@ body{
 }
 .list ul a:hover{
       color: red;
+}
+
+
+.head-container{
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+.left-site{
+      color: white;
+      margin-left: 100px;
+}
+.left-site h4{
+      color: red;
+      font-size: 20px;
+}
+.left-site h1{
+      font-size: 65px;
+}
+.left-site h5{
+      color: gray;
+      font-size: 22px;
+}
+.left-site button{
+      background-color: red;
+      padding: 20px 60px;
+      color: white;
+      font-size: 20px;
+      border-radius: 5px;
+      font-weight: bolder;
+}
+.left-site button:hover{
+      font-weight: bolder;
+      background-color: rgb(0, 76, 255);
+}
+
+.right-site img{
+      height: 573px;
 }
